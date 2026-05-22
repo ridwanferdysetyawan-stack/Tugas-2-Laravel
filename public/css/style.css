@@ -1,0 +1,37 @@
+body{
+    background:#f5f6fa;
+    font-family: sans-serif;
+}
+
+.sidebar{
+    width:250px;
+}
+
+.sidebar .nav-link{
+    color:#555;
+    border-radius:10px;
+    padding:12px;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active{
+    background:#ffece6;
+    color:#ff6b35;
+}
+
+.card{
+    border-radius:15px;
+}
+
+.main-content{
+    min-height:100vh;
+}
+
+.table img{
+    object-fit: cover;
+}
+
+.table td,
+.table th{
+    vertical-align: middle;
+}
